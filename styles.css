@@ -1,0 +1,70 @@
+/* body {
+  display: flex-box;
+  /* background-color: wheat; */
+  background-color: var(--bs-warning-bg-subtle);
+}
+header {
+  background-color: black;
+  color: white;
+
+}
+header a {
+  color : goldenrod
+} */
+
+/* .carrusel,
+.carousel-item {
+  height: 500px; O la altura que desees, por ejemplo 500px
+} */
+
+/* .carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: scale-down;
+}
+.efecto {
+  filter: blur(50px);
+}
+ul {
+  list-style: none;
+  display: flex;
+  margin: auto;
+  padding: 0;
+  justify-content: space-evenly;
+}
+ul li {
+  float: left;
+}
+ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 15px 20px;
+}
+ul li a:hover {
+  background-color: #555;
+  color: white;
+}
+.contenedorFoot {
+  display: flex;
+  justify-content: space-around; */
+  /* margin: 2% 2% 2% 2%;
+  flex-wrap: wrap; */
+  /* gap: 2rem;  */
+
+/* }
+.contenedorFoot img {
+ 
+  width: 35%;
+  height: 20%;
+}
+.descripcionimg {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+.contenerFoot {
+ 
+    margin: 5% 2% 2% 2%;
+
+} */
