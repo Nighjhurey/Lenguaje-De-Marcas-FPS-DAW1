@@ -3,45 +3,44 @@
   <head>
     <meta charset="UTF-8" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website of Chef Alejandro">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css" >
-    <link rel="stylesheet" href="./js/bootstrap.bundle.min.js" >
+    <!-- <link rel="stylesheet" href="./js/bootstrap.bundle.min.js" > -->
 
     <title>Chef Alejandro</title>
   </head>
   <body>
     <header>
-     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top " id="mainNav">
-            <article class="container px-4">
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+            <div class="container px-4">
                 <a class="navbar-brand text-warning fw-bold" href="#page-top">Chef Alejandro</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <article class="collapse navbar-collapse" id="navbarResponsive">
+                <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
                          <li class="nav-item"><a class="nav-link" href="./index.html">HOME</a></li>
                         <li class="nav-item"><a class="nav-link" href="./servicios.html">SERVICIOS</a></li>
                         <li class="nav-item"><a class="nav-link" href="./sobre-mi.html">SOBRE MI</a></li>
                         <li class="nav-item"><a class="nav-link" href="./contacto.html">CONTACTO</a></li>
                     </ul>
-                </article>
-            </article>
+                  </div>
+            </div>
         </nav>
 
     </header>
 
-    <!-- <section class="page-item"">
-        
-</section> -->
         <section class="page-section" id="contact">
             <div class="text-center text-white">
           <h2 class="">Contactame</h2>
           <h3 class="section-subheading text-white">
-            Lorem ipsum dolor sit amet consectetur.
+            Para cotizaciones o consultas, completa el formulario.
           </h3>
-        
         </div>
+        
         <form id="contactForm" action="datos.php">
             <fieldset class="container">
+              <legend> Formulario de contacto</legend>
           <div class="row align-items-stretch mb-5">
             <div class="col-md-6">
               <div class="form-group">
@@ -84,6 +83,8 @@
                 </div>
               </div>
             </div>
+            </div>
+            
             <div class="col-md-6">
               <div class="form-group form-group-textarea mb-md-0">
                 <textarea
@@ -100,22 +101,40 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="d-none" id="submitSuccessMessage">
-            <div class="text-center text-white mb-3">
-              <div class="fw-bolder">Form submission successful!</div>
-              To activate this form, sign up at
-              <br >
-              <a href="contacto.php">Enviado</a>
-            </div>
-          </div>
+          
 
-          <div class="d-none" id="submitErrorMessage">
+
+          <aside class="d-none" id="submitSuccessMessage">
+            <div class="text-center text-white mb-3">
+              <a href="contacto.php">Enviado</a>
+               <div class="fw-bolder">¡El envío del formulario fue exitoso!</div>
+            </div>
+          </aside>
+
+          <aside class="d-none" id="submitErrorMessage">
             <div class="text-center text-danger mb-3">
               Error al enviar el mensaje
             </div>
+          </aside>
+          
+          
+          <div class="form-check mb-3">
+            <input
+              class="form-check-input"
+              id="invalidCheck"
+              type="checkbox"
+              value=""
+              data-sb-validations="required"
+            >
+            <label class="form-check-label text-white " for="invalidCheck"> Acepto los
+              <a href="./politica-privacidad.html" data-bs-toggle="popover" data-bs-title="Popover title">terminos y condiciones</a>
+            </label>
+            <div class="invalid-feedback" data-sb-feedback="invalidCheck:required">
+             Debes aceptar los terminos y condiciones antes de enviar el formulario.
+            </div>
           </div>
           
+            </fieldset>
           <div class="text-center">
             <button
               class="btn btn-primary "
@@ -125,16 +144,16 @@
               Send Message
             </button>
           </div>
-          </fieldset>
+          
         </form>
-      
-    </section>
-  </body>
-  <footer class="py-5 bg-dark">
+      </section>
+    <footer class="py-5 bg-dark">
       <div class="container px-4">
         <p class="m-0 text-center text-white">
           Copyright &copy; Your Website 2023
         </p>
       </div>
     </footer>
+  </body>
+  
 </html>
