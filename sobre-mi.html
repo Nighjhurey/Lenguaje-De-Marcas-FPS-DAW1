@@ -52,14 +52,15 @@
         </div>
       </nav>
     </header>
+
+    <!-- Secction del inicio img con descripcion -->
     <section class="container mt-lg-4 pt-5">
       <div class="row align-items-center">
-        <!-- Imagen del chef -->
-        <div class="col-md-5 text-center">
+        <div class="col-md-5 mt-3">
           <figure class="figure">
             <img
               src="./IMG/Chef-alejandro.jpg"
-              alt="Chef Alejandro"
+              alt="Chef Alejandro en cocina"
               class="img-fluid rounded shadow imagenChef"
             >
             <figcaption class="figure-caption text-muted mt-2">
@@ -68,8 +69,8 @@
           </figure>
         </div>
 
-        <!-- Texto descriptivo -->
-        <div class="col-md-7">
+        
+         <article class="col-md-7 mt-5">
           <h2 class="fw-bold mb-3">Leider Alejandro Colmenares Bueno</h2>
           <p class="lead">
             Chef profesional, un apasionado de la gastronomía con más de cinco
@@ -85,11 +86,11 @@
             entender la cocina desde perspectivas diversas y desarrollar 
             una propuesta gastronómica única.
           </p>
+          </article>
         </div>
-      </div>
     </section>
 
-    <section class="page-section" id="about">
+    <section class="mt-4 bg-warning" id="about">
       <div class="container">
         <div class="text-center">
           <h2 class="section-heading text-uppercase">
@@ -101,35 +102,80 @@
             nace de años de experiencia, curiosidad y dedicación constante por
             perfeccionar el arte culinario.
           </p>
-          <h4>
-            Aquí te presento uno de los sabores que mejor define mi estilo:
-          </h4>
         </div>
+        </div>
+      </section>
 
+      <section class="container py-5" aria-labelledby="featuredDishes">
+  <!-- Plato 1: Carne Braseada -->
+  <article class="row mb-5 align-items-center">
+    <div class="col-md-6">
+      <figure>
+        <img src="./IMG/tipos-de-cortes-de-carne.jpg" alt="Carne braseada servida con salsa oscura" class="img-fluid rounded">
+      </figure>
+    </div>
+    <div class="col-md-6">
+      <h3 class="fw-bold">Carnes</h3>
+      <p>
+      Desde que descubrí el mundo de las carnes a la brasa supe que allí estaba mi lugar. 
+      Me fascinó cómo el fuego podía transformar un corte, realzar su aroma y revelar matices que solo aparecen con la técnica adecuada. 
+      He aprendido a interpretar cada carne: su origen, su infiltración, su fibra y la forma en que responde al calor directo. 
+      <br>
+      Hoy aplico ese conocimiento en mi trabajo diario, controlando las brasas con precisión, seleccionando cortes de calidad y ajustando 
+      tiempos y alturas para obtener el punto exacto que cada pieza merece. 
+      </p>
+      <p>
+        Como dato curioso, suelo experimentar con distintos tipos de leña 
+      para crear perfiles aromáticos únicos, y aún conservo un cuaderno donde registro cada combinación de fuego, carne y resultado.
+      </p>
+    </div>
+  </article>
+
+  
+  <article class="row mb-2 align-items-center flex-md-row">
+    <div class="col-md-6">
+      <figure class="">
+        <img src="./IMG/Gemini_Generated_Image_kg3giskg3giskg3g.png" alt="Brasa ardiente" class="img-fluid rounded ">
+      </figure>
+    </div>
+    <div class="col-md-6">
+      <h3 class="fw-bold">Brasas</h3>
+      <p>
+        La brasa siempre ha sido mi lugar de inspiración: descubrí su magia cuando entendí que no solo cocina, sino que transforma. Aprendí a leer el fuego, 
+        a reconocer cuándo una brasa está lista y cómo su intensidad puede definir aromas, texturas y carácter en cada preparación. 
+        Hoy aplico ese conocimiento ajustando el calor con precisión, combinando maderas y controlando el flujo del aire para lograr resultados 
+        consistentes y llenos de sabor. 
+      <p>
+        Como detalle curioso, me encanta experimentar con brasas de distintas procedencias porque cada una aporta un matiz diferente; incluso llevo un pequeño registro donde anoto tiempos, temperaturas y sensaciones que me ayudan a perfeccionar mi técnica día tras día.
+      </p>
+    </div>
+  </article>
+</section>
+
+<section class="timeline-section container py-5">
+<h3 class="text-center text-uppercase mb-5"> 
+  El comienzo de mi camino
+</h3>
         <ul class="timeline mt-5">
           <li>
             <article class="timeline-panel">
               <header>
-                <h3 class="subheading">Tataki de Ternera</h3>
-                <time datetime="2021">2021</time>
+                <h3 class="subheading">Curso de gastronomía básica</h3>
               </header>
-              <figure>
-                <img src="./IMG/tatakiDTernera.jpg" alt="Tataki de Ternera" class="rounded-circle img-fluid" >
-              </figure>
               <div class="timeline-body">
-                <p class="text-muted">Lorem ipsum dolor sit amet...</p>
+                <p class="text-muted">Fue mi primer paso formal en la cocina con un curso de gastronomía básica. 
+                  Fue el inicio de todo: aprendí las técnicas fundamentales, el manejo correcto de los ingredientes y la disciplina que requiere este oficio.
+                   Ese año descubrí que la cocina no solo era una pasión, sino el camino profesional que quería seguir.</p>
               </div>
             </article>
           </li>
-          
-          <li class="timeline-inverted">
+           <li class="timeline-inverted">
             <article>
             <div class="timeline-image">
                <h4 class="text-center mt-md-5">2022</h4>
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h4>March 2011</h4>
                 <h4 class="subheading">An Agency is Born</h4>
               </div>
               <div class="timeline-body">
@@ -147,7 +193,7 @@
             <figure class="timeline-image">
               <img
                 class="rounded-circle img-fluid"
-                src="./IMG/Arroz-MelosoZata-Puntos-Alioli-conplumaIberica.jpg"
+                src=""
                 alt="..."
               >
             </figure>
@@ -202,7 +248,8 @@
           </li>
         </ul>
       </div>
-    </section>
+</section>
+
 
     <!-- <article class="timeline-inverted">
             <header>
